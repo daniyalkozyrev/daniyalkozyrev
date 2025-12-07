@@ -17,6 +17,7 @@ const Alumni: React.FC = () => {
                   src={person.imageUrl} 
                   alt={person.name} 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-fizmat-red object-cover shadow-lg group-hover:scale-105 transition-transform duration-300 bg-gray-100"
+                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 rounded-full ring-2 ring-offset-2 ring-transparent group-hover:ring-fizmat-red transition-all duration-300"></div>
               </div>

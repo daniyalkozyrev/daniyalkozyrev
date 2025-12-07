@@ -16,21 +16,21 @@ export const NEWS_ITEMS: NewsItem[] = [
     title: 'Халықаралық Жәутіков Олимпиадасының жеңімпаздары',
     date: '12 Қазан 2023',
     category: 'Жетістіктер',
-    imageUrl: 'https://dknews.kz/storage/news/2024-01/9U1QJxwerJf5aprzjZJIfTSWhjzUucsEdFZQ8H5T.jpg' // Students with medals/trophies vibe
+    imageUrl: 'https://izho.kz/wp-content/uploads/2018/01/MG_2198.jpg' 
   },
   {
     id: 2,
     title: 'Мектеп парламентінің жаңа құрамы сайланды',
     date: '05 Қараша 2023',
     category: 'Мектеп өмірі',
-    imageUrl: 'https://almaty.fizmat.kz/wp-content/uploads/sites/2/2025/11/img_20251107_182952_202.jpg' // Group of students discussion
+    imageUrl: 'https://almaty.fizmat.kz/wp-content/uploads/sites/2/2025/11/img_20251107_182952_202.jpg'
   },
   {
     id: 3,
     title: 'Робототехника көрмесіндегі жаңа жобалар',
     date: '10 Желтоқсан 2023',
     category: 'Ғылым',
-    imageUrl: 'https://mugalzhar.kz/wp-content/uploads/2025/05/c12cb056-4146-4b58-aa9d-b62b4e657417.jpg' // Robotics/Tech
+    imageUrl: 'https://mugalzhar.kz/wp-content/uploads/2025/05/c12cb056-4146-4b58-aa9d-b62b4e657417.jpg'
   }
 ];
 

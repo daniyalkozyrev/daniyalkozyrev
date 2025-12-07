@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight, BookOpen } from 'lucide-react';
 
-// PASTE YOUR IMAGE URL HERE (Keep the quotes!)
+// ВЕРНИТЕ СЮДА ВАШУ ССЫЛКУ НА КАРТИНКУ "РФМШ Жаңа ғимараты"
+// Если картинка не открывается, попробуйте загрузить её на хостинг вроде imgur или использовать прямую ссылку
 const NEW_CORPUS_IMAGE_URL = "https://fizmat.kz/wp-content/uploads/2025/02/almaty.jpg";
 
 const Hero: React.FC = () => {
@@ -54,29 +55,22 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Image Column - Redesigned to match "New Corpus" style */}
+          {/* Right Image Column */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.01] transition-transform duration-300 flex h-64 md:h-[400px]">
-               {/* Red Sidebar */}
-               <div className="bg-fizmat-red w-1/3 sm:w-1/3 flex flex-col justify-end p-6 md:p-8 shrink-0 relative">
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-white/5 to-transparent"></div>
-                  <div className="relative z-10">
-                      <h2 className="text-white font-extrabold text-2xl md:text-3xl lg:text-4xl leading-none uppercase tracking-tight">
-                          Жаңа<br/>корпус
-                      </h2>
-                      <div className="w-10 h-1 bg-white/60 mt-4 rounded-full"></div>
-                  </div>
-               </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.01] transition-transform duration-300 h-64 md:h-[400px]">
+               <img 
+                 src={NEW_CORPUS_IMAGE_URL} 
+                 alt="РФМШ Жаңа ғимараты" 
+                 className="w-full h-full object-cover"
+                 referrerPolicy="no-referrer" 
+               />
+               {/* Overlay */}
+               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                
-               {/* Building Image */}
-               <div className="flex-1 relative bg-gray-100">
-                 <img 
-                   src={NEW_CORPUS_IMAGE_URL} 
-                   alt="РФМШ Жаңа ғимараты" 
-                   className="w-full h-full object-cover"
-                 />
-                 {/* Overlay for better integration */}
-                 <div className="absolute inset-0 bg-gradient-to-r from-fizmat-red/10 to-transparent"></div>
+               <div className="absolute bottom-6 left-6 text-white">
+                  <h2 className="font-bold text-xl md:text-2xl drop-shadow-md">
+                      Жаңа корпус
+                  </h2>
                </div>
             </div>
             

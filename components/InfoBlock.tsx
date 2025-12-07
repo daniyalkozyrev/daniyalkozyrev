@@ -19,7 +19,12 @@ const InfoBlock: React.FC = () => {
           {NEWS_ITEMS.map((news) => (
             <div key={news.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
               <div className="h-48 w-full overflow-hidden">
-                <img src={news.imageUrl} alt={news.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img 
+                  src={news.imageUrl} 
+                  alt={news.title} 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-center mb-2">
