@@ -14,21 +14,21 @@ export const NEWS_ITEMS: NewsItem[] = [
   {
     id: 1,
     title: 'Халықаралық Жәутіков Олимпиадасының жеңімпаздары',
-    date: '12 Қазан 2023',
+    date: '12 Қазан 2025',
     category: 'Жетістіктер',
     imageUrl: 'https://izho.kz/wp-content/uploads/2018/01/MG_2198.jpg' 
   },
   {
     id: 2,
     title: 'Мектеп парламентінің жаңа құрамы сайланды',
-    date: '05 Қараша 2023',
+    date: '05 Қараша 2025',
     category: 'Мектеп өмірі',
     imageUrl: 'https://almaty.fizmat.kz/wp-content/uploads/sites/2/2025/11/img_20251107_182952_202.jpg'
   },
   {
     id: 3,
     title: 'Робототехника көрмесіндегі жаңа жобалар',
-    date: '10 Желтоқсан 2023',
+    date: '10 Желтоқсан 2025',
     category: 'Ғылым',
     imageUrl: 'https://mugalzhar.kz/wp-content/uploads/2025/05/c12cb056-4146-4b58-aa9d-b62b4e657417.jpg'
   }
